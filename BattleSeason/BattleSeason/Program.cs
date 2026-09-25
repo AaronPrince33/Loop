@@ -16,6 +16,11 @@ for (int i = 1; i <= number0fBattle; i++)
 {
     totalEXP += expGained;
     Console.WriteLine($"Battle {i} | EXP Gained: {expGained} | Total EXP: {totalEXP}");
+    
+}
+if (number0fBattle % 100 == 0)
+{
+    Console.WriteLine("Milestone Reached!");
 }
 
 Console.WriteLine("\n=== BATTLE COMPLETE ===");
